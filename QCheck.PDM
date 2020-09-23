@@ -1,0 +1,97 @@
+[Root]
+Most Recent Package=QCheck Package
+Most Recent Deploy=QCheck Deploy
+
+
+[Package|QCheck Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Dev\Frank\QCheck\Package
+
+[Package|QCheck Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|QCheck Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|QCheck Package|Files Found]
+
+[Package|QCheck Package|Files Released]
+
+[Package|QCheck Package|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=
+
+[Package|QCheck Package|Out-of-Date Dependency Information]
+
+[Package|QCheck Package|Files Added]
+
+[Package|QCheck Package|Files Removed]
+
+[Package|QCheck Package|Files In Project]
+C:\Dev\Frank\QCheck\QCheck.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|QCheck Package|Configure Registry Files]
+Applicable=No
+
+[Package|QCheck Package|Configure Remote Servers]
+Applicable=No
+
+[Package|QCheck Package|Install Locations]
+C:\Dev\Frank\QCheck\QCheck.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|QCheck Package|Configure Shared Files]
+Applicable=Yes
+C:\Dev\Frank\QCheck\QCheck.exe=No
+
+[Package|QCheck Package|Distribution]
+Type=single
+Size=
+Title=QCheck
+
+[Package|QCheck Package|IconGroups]
+Group0=QCheck
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|QCheck Package|QCheck]
+Icon1=QCheck.exe
+Title1=QCheck
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|QCheck Package|Package]
+PackageFolder=C:\Dev\Frank\QCheck\Package
+ProjectFolder=C:\Dev\Frank\QCheck
+ServerSideCab=
+File1=C:\Dev\Frank\QCheck\Package\setup.exe
+File2=C:\Dev\Frank\QCheck\Package\Setup.Lst
+File3=C:\Dev\Frank\QCheck\Package\QCheck.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|QCheck Deploy|Root]
+Package=QCheck Package
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Dev\Frank\QCheck\Deploy

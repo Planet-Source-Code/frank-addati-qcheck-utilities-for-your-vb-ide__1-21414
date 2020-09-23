@@ -1,0 +1,29 @@
+[ DESCRIPTION ]
+
+This utility provides Spelling, Grammar and Thesaurus capabilities to most Windows applications. Simply highlight a word or sentence then right-click the QCHECK icon from the System Tray and select one of these three options:
+
+1. Spelling (also accessible by left-clicking the icon)
+2. +Grammar
+3. Thesaurus
+
+A simple text editor can be found by clicking Qpad from the popup menu.
+From here you can check spelling and grammar without highlighting the text. In addition by clicking the 'OK' menu option the corrected text will be sent to the application the editor was hooked onto (Do this by clicking the 'Set' menu option)
+
+
+[ WHAT YOU NEED TO RUN IT ]
+
+1. Visual Basic 6 runtime (Msvbvm60.dll)
+2. Microsoft Word 97 or Word 2000
+
+
+
+[ ABOUT QCHECK ]
+
+I created QCHECK primarily for myself. Code editors in programming languages like Visual Basic, Access, SQL Server etc., don't provide a spell checker, so sometimes I was forced to cut and paste text back and forward from Microsoft Word.
+By using QCHECK now I can access the power of Word quickly and painlessly.
+
+This program is Freeware. There are no special limitations in the program's functionality.
+Send comments, suggestions, bugs, ... to:
+frankaddati@21century.com.au
+http://www.21century.com.au/frankaddati
+
